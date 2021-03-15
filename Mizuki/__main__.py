@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = "Hi {}, ka hming chu {} 👸\n\nI'm a next gen powerful group manager bot. Siam ttu [Didiktea 🇱🇰](t.me/Didiktea)\n\nHit /help to find my list of available commands"
+PM_START_TEXT = "Hi {}, ka hming chu {} 👸\n\nI'm a next gen powerful group manager bot. Siam tu [Didiktea 🇱🇰](t.me/Didiktea)\n\nHit /help to find my list of available commands"
 
 HELP_STRINGS = """
 Hey kathian! Ka hming chu *{}*.
