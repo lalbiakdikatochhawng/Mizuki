@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = "Hello {}, ka hming chu {} 👸ani.\n\nKei hi group enkawl pui tura siam bot ka ni. Min Siam tu chu [Didiktea 🇱🇰](t.me/Didiktea)a ni.\n\nCommand nan /help tih hi hmet la ka thil tihtheih te i hre dawn nia"
+PM_START_TEXT = "Hello hmelthate {}, ka hming chu {} ani a,\n\nKei hi group enkawl pui tura siam bot ka ni. Duat tak a min Siam tu chu [Didiktea](t.me/Didiktea)a ni.\n\nMin Command nan /help tih hi hmet la ka thil tihtheih te i hre dawn nia 😉"
 
 HELP_STRINGS = """
 Hey kathian! Ka hming chu *{}*.
@@ -222,11 +222,11 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🗼 Support Group 🗼",
+                                text="🗼 Join Group 🗼",
                                 url=f"https://t.me/puituflynn",
                             ),
                             InlineKeyboardButton(
-                                text="🔔 Support Channel 🔔",
+                                text="🔔 Subscribe Channel 🔔",
                                 url="https://t.me/androidusersmizo",
                             ),
                         ],
@@ -235,7 +235,7 @@ def start(update: Update, context: CallbackContext):
                                 text="⛔Youtube Channel⛔", url="https://m.youtube.com/channel/UCRVFdrBy_I-_hNL3vgONbuQ"
                             ),
                             InlineKeyboardButton(
-                                text="🇱🇰 Developer", url="https://t.me/Didiktea"
+                                text="Developer", url="https://t.me/Didiktea"
                             ),
                         ],
                     ]
