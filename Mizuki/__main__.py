@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = "Hello {}, ka hming chu {} 👸ani\n\nKei hi group enkawl pui tura siam bot ka ni. Siam tu [Didiktea 🇱🇰](t.me/Didiktea)\n\nHit /help tih hi hmet la ka thil tihtheih te i hre dawn nia"
+PM_START_TEXT = "Hello {}, ka hming chu {} 👸ani.\n\nKei hi group enkawl pui tura siam bot ka ni. Min Siam tu chu [Didiktea 🇱🇰](t.me/Didiktea)a ni.\n\nCommand nan /help tih hi hmet la ka thil tihtheih te i hre dawn nia"
 
 HELP_STRINGS = """
 Hey kathian! Ka hming chu *{}*.
@@ -214,7 +214,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="⭕ Add Lynn Mizo to your Group ⭕",
+                                text="⭕ Add Lynn Telo to your Group ⭕",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -222,17 +222,17 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="💖 Support Group",
+                                text="🗼 Support Group 🗼",
                                 url=f"https://t.me/puituflynn",
                             ),
                             InlineKeyboardButton(
-                                text="⭕ Updates Channel",
+                                text="🔔 Support Channel 🔔",
                                 url="https://t.me/androidusersmizo",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="📽Youtube Channel", url="https://m.youtube.com/channel/UCRVFdrBy_I-_hNL3vgONbuQ"
+                                text="⛔Youtube Channel⛔", url="https://m.youtube.com/channel/UCRVFdrBy_I-_hNL3vgONbuQ"
                             ),
                             InlineKeyboardButton(
                                 text="🇱🇰 Developer", url="https://t.me/Didiktea"
