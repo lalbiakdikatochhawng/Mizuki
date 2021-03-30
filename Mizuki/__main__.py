@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = "Hello duhlai {}, ka hming chu {} ani a,\n\nKei hi group enkawl pui tura siam bot ka ni. Duat tak a min Siam tu chu [Didiktea](t.me/Didiktea) a ni.\n\nMin Command nan /help tih hi hmet la ka thil tihtheih te i hre dawn nia 😉"
 
 HELP_STRINGS = """
-Hey kathian! Ka hming chu *{}*.
+Hey kathian! Ka hming chu *{}* ani a, 
 Kei hi i group enkawlpui tur a siam bot ka ni a, kawng engkim ah ka tanpui theih ngei che ka beisei tlat ani!
 
 *Main* commands available:
