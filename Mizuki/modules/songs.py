@@ -37,9 +37,9 @@ async def download_video(v_url):
     me = await lazy.client.get_me()
 
     if not sender.id == me.id:
-        rkp = await lazy.reply("Processing 😌")
+        rkp = await lazy.reply("Lo nghak lawks 😌")
     else:
-        rkp = await lazy.edit("Processing 😌")
+        rkp = await lazy.edit("Lo nghak lawks 😌")
     url = v_url.pattern_match.group(1)
     if not url:
         return await rkp.edit("`Error \nusage song <song name>`")
@@ -50,9 +50,9 @@ async def download_video(v_url):
     try:
         url = q[0]["link"]
     except:
-        return await rkp.edit("Failed to find 😒")
+        return await rkp.edit("Ka zawng hmulo 😒")
     type = "audio"
-    await rkp.edit("Preparing to download 🥺")
+    await rkp.edit("Download turin buatsaih mek ani e 🥺")
     if type == "audio":
         opts = {
             "format": "bestaudio",
@@ -76,7 +76,7 @@ async def download_video(v_url):
         video = False
         song = True
     try:
-        await rkp.edit("Fetching data, please wait 😉")
+        await rkp.edit("A reilo ang, lo nghak lawks 😉")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
@@ -155,9 +155,9 @@ async def download_video(v_url):
     sender = await lazy.get_sender()
     me = await lazy.client.get_me()
     if not sender.id == me.id:
-        rkp = await lazy.reply("`Processing...`")
+        rkp = await lazy.reply("`Buatsaih mek ani...`")
     else:
-        rkp = await lazy.edit("`Processing...`")
+        rkp = await lazy.edit("`Buatsaih mek ani...`")
     url = v_url.pattern_match.group(1)
     if not url:
         return await rkp.edit("`Error \nusage song <song name>`")
@@ -170,7 +170,7 @@ async def download_video(v_url):
     except:
         return await rkp.edit("`failed to find`")
     type = "audio"
-    await rkp.edit("Preparing to download 😌")
+    await rkp.edit("Download turin buatsaih mek ani 😌")
     if type == "audio":
         opts = {
             "format": "best",
@@ -189,7 +189,7 @@ async def download_video(v_url):
         song = False
         video = True
     try:
-        await rkp.edit("Fetching data, please wait 😉")
+        await rkp.edit("Lo nghak lawk rawh, a reilo ang 😉")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
@@ -269,9 +269,9 @@ async def download_video(v_url):
 
 
 __help__ = """
- • `/song <song name>`*:* uploads the song in it's best quality available
- • `/video <video name>`*:* uploads the video in it's best quality available
- • `/lyrics <song name>`*:* provides the lyrics of the song you want
+ • `/song <hla hming>`*:* Hla i download duh kha quality tha ber in a lo pe ang che
+ • `/video <video hming>`*:* Video i download duh kha quality tha ber in a lo pe ang che
+ • `/lyrics <hla hming>`*:* I lyrics duh kha alo pe ang che
 """
 
 __mod_name__ = "Songs 🎵"
