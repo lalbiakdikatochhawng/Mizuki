@@ -13,4 +13,4 @@ Developer @Didiktea
 
 Github [Didiktea](https://github.com/lalbiakdikatochhawng)"""
 
-__mod_name__ = "About 🇱🇰"
+__mod_name__ = "About 🇮🇳"
