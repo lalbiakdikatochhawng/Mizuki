@@ -572,9 +572,9 @@ def kayo(update: Update, context: CallbackContext):
 
 
 __help__ = """
-Get information about anime, manga or characters from [AniList](anilist.co).
+Anime chungchang i hriatna tur, a kaihhnawih emaw characters te heta tang hian enrawh [AniList](anilist.co).
 
-*Available commands:*
+*Command dan tur te:*
 
  • `/anime <anime>`*:* returns information about the anime.
  • `/character <character>`*:* returns information about the character.
