@@ -399,10 +399,10 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
-Antiflood allows you to take action on users that send more than x messages in a row. Exceeding the set flood \
-will result in restricting that user.
+Antiflood awmzia chu tu emaw group a nawi ching a zawn a message thawn vak vak ho hrem nan a tih ani. A zawna message thawn theih zat i set thei \
+Chu mi i set zar an thawn pelh chuan i hrem thei.
 
- This will mute users if they send more than 10 messages in a row, bots are ignored.
+ A zawn a message 10 aia tam an thawn chuan i mute hmak thei, bots hmang hian.
  • `/flood`*:* Get the current flood control setting
 
 • *Admins only:*
