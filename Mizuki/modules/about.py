@@ -1,16 +1,16 @@
 __help__ = """
-*Mizuki - A Powerful Telegram Group Manager 🎶
+*Lynntelo - Group Manager Tha leh rintlak chungchuang 🎶
 
-Powerful Abilities*
+A thil tihtheih ropui zualte*
 
-• Group Voice Chat Music Play ❤
+• Group ah Voice Chat leh Music a Play thei ❤
 
-• File To Link and URL Upload 📂
+• File To Link leh URL Upload 📂
 
-• Youtube Downloader 🎵
+• Youtube video leh audio a download thei 🎵
 
-Developer @ImJanindu 🇱🇰
+Developer @Didiktea
 
-Github [ImJanindu](https://github.com/ImJanindu)"""
+Github [Didiktea](https://github.com/lalbiakdikatochhawng)"""
 
 __mod_name__ = "About 🇱🇰"
