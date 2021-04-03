@@ -1,5 +1,5 @@
-#    Copyright (C) 2020-2021 by @InukaAsith
-#    This program is a part of DaisyX TG bot project
+#    Copyright (C) 2020-2021 by @Didiktea
+#    This program is a part of Lynntelo TG bot project
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
@@ -196,12 +196,12 @@ def config(client, message):
 __help__ = """
 *Force Subscribe*
 
-• ඔයාගෙ ගෲප් එකේ මෙම්බර්ස්ල Channel එකක් හෝ කිහිපයක් Subscribe කරනකන් Message දාන එක නවත්තන්න මට පුලුවන්.
-• සාමාජිකයන් ඔබේ Channel එකට සම්බන්ධ නොවූයේ නම් මම ඔවුන්ව නිශ්ශබ්ද කර channel එකට සම්බන්ධ වන ලෙස පවසන්න සහ බොත්තමක් එබීමෙන් ඔවුන්ව නැවත කතාකරවීමට මට පුලුවන්.
+• He thil tangkai na chu i channel kha mi i subscribe luih tir thei.
+• I channel an subscribe phawt loh chuan group a an thu post te kha a in mute anga tuman an hmu theilo ang.
 
-*Setup*
-❗First of all add me in the group as admin with ban users permission and in the channel as admin.
-Note: Only creator of the group can setup me and i will not allow force subscribe again if not done so.
+*A tihdan*
+❗A hmasa ber ah chuan i group ah min add la admin ah mindah nghal bawk rawh. Chuan ban users permission on la i channel ah min admin tir bawk ang che.
+Note: Group siamtu chauh in min setup thei a anih loh chuan midang thu ka zawm ngai ngailo.
  
 *Commmands*
  - /ForceSubscribe - To get the current settings.
@@ -210,7 +210,7 @@ Note: Only creator of the group can setup me and i will not allow force subscrib
  - /ForceSubscribe clear - To unmute all members who muted by me.
 Note: /FSub is an alias of /ForceSubscribe
 
-💬 Only on Sinhala 🇱🇰 yet
+💬 Only on Didiktea 🇮🇳 yet
  
 """
 __mod_name__ = "FSubscribe 💬"
