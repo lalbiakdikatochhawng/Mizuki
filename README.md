@@ -1,11 +1,11 @@
 ![Lynntelo](https://telegra.ph/file/d19b39ac0b0dd45f37d63.jpg)
 # Lynntelo Bot
 
-A Telegram Python bot running on python3 forked with saitama with a sqlalchemy database and an entirely themed persona to make fun and good management for you in your groups.
+He bot hi group manager atan bik a ka siam ani a, i group ah add in admin tirla i hmang thei ang.
 
-Can be found on telegram as [Lynntelo](https://t.me/Mizukimizo_bot)
+Telegram ah tihian i hmu thei ang [Lynntelo](https://t.me/Mizukimizo_bot)
 
-The Support group can be reached out to at [MɪZᴏ AɴDʀOɪᴅ UsEʀs](https://t.me/puituflynn), where you can ask for help , discover new features, report bugs, and stay in the loop whenever a new update is available. 
+Hemi bot chungchang bik i hriat chian duh chuan group hi lo join rawh le [MɪZᴏ AɴDʀOɪᴅ UsEʀs](https://t.me/puituflynn), zawhna engpawh i zawt thei a , a features thar te, buaina i neihte, leh engkim i hriat duh zawng te kanlo hrilh theih che kan beisei. 
 
 
 Updates channel as at [MɪZᴏ AɴDʀOɪᴅ UsEʀs](https://t.me/puituflynn)
