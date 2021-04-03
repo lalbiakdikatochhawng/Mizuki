@@ -198,17 +198,17 @@ def unapproveall_btn(update: Update, context: CallbackContext):
 
 
 __help__ = """
-Sometimes, you might trust a user not to send unwanted content.
-Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
+A changchuan, members rintlak tak emaw rinzawng tak ilo nei thut thei.
+Mahse admin an nih kher i duhlo thei, an mahni bik ah heng locks, blacklists, leh antiflood te hi apply i duhlo thei.
 
-That's what approvals are for - approve of trustworthy users to allow them to send 
+Chung atan chuan approvals hi siam ani - I mi rinzawng tak thawn atan i remti thei 
 
 *Admin commands:*
-- `/approval`*:* Check a user's approval status in this chat.
-- `/approve`*:* Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
-- `/unapprove`*:* Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
-- `/approved`*:* List all approved users.
-- `/unapproveall`*:* Unapprove *ALL* users in a chat. This cannot be undone.
+- `/approval`*:* Hemi hmang hian user's approval status i check thei.
+- `/approve`*:* member approve na ani a, Locks, blacklists, leh antiflood te an lak ah a apply theihloh.
+- `/unapprove`*:* Unapprove lehna a ni a, an lakah heng thil locks, blacklists, leh antiflood te hi i kengkawng leh thei.
+- `/approved`*:* member approved ho list.
+- `/unapproveall`*:* Approve Member zawng awng *UNAPPROVE* leh na a nia. A cancel theih tawhloh.
 """
 
 APPROVE = DisableAbleCommandHandler("approve", approve)
