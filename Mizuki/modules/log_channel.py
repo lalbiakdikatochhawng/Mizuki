@@ -194,14 +194,14 @@ if is_module_loaded(FILENAME):
 
     __help__ = """
 *Admins only:*
-• `/logchannel`*:* get log channel info
-• `/setlog`*:* set the log channel.
-• `/unsetlog`*:* unset the log channel.
+• `/logchannel`*:* log channel info hriatna
+• `/setlog`*:* log channel set na.
+• `/unsetlog`*:* log channel set cancel na.
 
-Setting the log channel is done by:
-• adding the bot to the desired channel (as an admin!)
-• sending `/setlog` in the channel
-• forwarding the `/setlog` to the group
+Log channel set dan tur chu hetiang hian:
+• i bot kha channel add phawt rawh le (admin ah dahtur!)
+• channel ah `/setlog` tih hi thawn rawh
+• chu i messagw `/setlog` chu group ah forward tur
 """
 
     __mod_name__ = "Logger 🏷"
