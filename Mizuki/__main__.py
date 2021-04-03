@@ -83,12 +83,12 @@ Hey kathian! Ka hming chu *{}* ani a,
 Kei hi i group enkawlpui tur a siam bot ka ni a, kawng engkim ah ka tanpui theih ngei che ka beisei tlat ani!
 
 *Main* commands available:
- ✪ /help: PM's you this message.
- ✪ /help <module name>: PM's you info about that module.
- ✪ /donate: information on how to donate!
+ ✪ /help: ka thil tihtheih ho hriatna.
+ ✪ /help <module name>: I hriatduh module bik info hriat na.
+ ✪ /donate: donate dan tur hriat na!
  ✪ /settings:
-   ◔ in PM: will send you your settings for all supported modules.
-   ◔ in a group: will redirect you to pm, with all that chat's settings.
+   ◔ in PM: I module support ho bik setting te hriat na.
+   ◔ in a group: private message ah direct in biakna, group setting ho te hriatna.
 {}
 """.format(
     dispatcher.bot.first_name,
@@ -97,7 +97,7 @@ Kei hi i group enkawlpui tur a siam bot ka ni a, kawng engkim ah ka tanpui theih
 
 SAITAMA_IMG = "https://telegra.ph/file/770c41ad0f7bb7c7ad821.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate for developer. This bot runs on heroku so bot slow down some times and developer cannot add more modules due to heroku can't run them.\n\nBetter if my developer recieved a VPS to run the bot. Contact him and help him to continue this.\n\nDeveloper: [@Didiktea](t.me/Didiktea)"""
+DONATE_STRING = """Heya, i donate duh avangin kan va lawm tak em. Tanpui kan ngaihve na chu bot hi heroku a tanga siam ani a, achang hi chuan bot te hi an nung tha theilo thin a pawisa chawilo chuan.\n\nBot hi tha taka a nun reng theihnan lo donate ve rawh le. Min siamtu i tanpui duh chuan tah hian i be thei ang.\n\nDeveloper: [@Didiktea](t.me/Didiktea)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
