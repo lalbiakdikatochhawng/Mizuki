@@ -141,8 +141,8 @@ Chatbot utilizes the CoffeeHouse API and allows lynntelo to talk and provides a 
 
 *Commands:* 
 *Admins only:*
- • `/addchat`*:* Enables Chatbot mode in the chat.
- • `/rmchat`*:* Disables Chatbot mode in the chat.
+ • `/addchat`*:* Group ah Chathot mode enable na.
+ • `/rmchat`*:* Group ah Chatbot mode disable leh na.
 
 Reports bugs at @{SUPPORT_CHAT}
 *Powered by CoffeeHouse* (https://coffeehouse.intellivoid.net/) from @Intellivoid
