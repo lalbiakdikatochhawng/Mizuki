@@ -147,9 +147,9 @@ def check_afk(update, context, user_id, fst_name, userc_id):
 
 
 __help__ = """
- • `/afk <reason>`*:* mark yourself as AFK(away from keyboard).
- • `brb <reason>`*:* same as the afk command - but not a command.
-When marked as AFK, any mentions will be replied to with a message to say you're not available!
+ • `/afk <reason>`*:* Nangmah afk a i awm dawnin(i online hmanloh in).
+ • `brb <reason>`*:* Afk command nen a in ang deuh reng - mahse command pangngai ani lo.
+I AFK dawn reng reng in, i afk na chhan kha i ziahtel zel angai!
 """
 
 AFK_HANDLER = DisableAbleCommandHandler("afk", afk)
